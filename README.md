@@ -18,11 +18,11 @@ Preprint available at https://arxiv.org/abs/2112.00928
 ### Compilation
 Edit src/model_inputs.d to select the model to run, then, from the root directory:
 
-    ldc2 src/*.d src/pb/*.d -od=build
+    ldc2 src/*.d -od=build
     
 or (optimised):
 
-    ldc2 src/*.d src/pb/*.d -od=build -O3 -release -mcpu=native -ffast-math
+    ldc2 src/*.d -od=build -O3 -release -mcpu=native -ffast-math
 
 ### Execution
 
